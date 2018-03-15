@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-05 21:56-0800\n"
+"POT-Creation-Date: 2018-03-15 12:52+0300\n"
 "PO-Revision-Date: 2016-08-01 07:48+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -20,82 +20,83 @@ msgstr ""
 "%100>=11 && n%100<=14)? 2 : 3);\n"
 "X-Generator: Poedit 1.8.5\n"
 
-#: registration/serializers.py:53
+#: rest_auth/registration/serializers.py:67
 msgid "View is not defined, pass it as a context variable"
 msgstr "View неизвестен, передайте его как переменную контекста"
 
-#: registration/serializers.py:58
+#: rest_auth/registration/serializers.py:72
 msgid "Define adapter_class in view"
 msgstr "Установите adapter_class в view"
 
-#: registration/serializers.py:77
+#: rest_auth/registration/serializers.py:91
 msgid "Define callback_url in view"
 msgstr "Установите callback_url в view"
 
-#: registration/serializers.py:81
+#: rest_auth/registration/serializers.py:95
 msgid "Define client_class in view"
 msgstr "Установите client_class в view"
 
-#: registration/serializers.py:102
+#: rest_auth/registration/serializers.py:116
 msgid "Incorrect input. access_token or code is required."
 msgstr "Некорректный ввод. Необходим access_token или code."
 
-#: registration/serializers.py:111
+#: rest_auth/registration/serializers.py:125
 msgid "Incorrect value"
 msgstr "Некорректное значение"
 
-#: registration/serializers.py:140
+#: rest_auth/registration/serializers.py:139
+#: rest_auth/registration/serializers.py:185
 msgid "A user is already registered with this e-mail address."
 msgstr "Пользователь с таким e-mail адресом уже зарегистрирован."
 
-#: registration/serializers.py:148
+#: rest_auth/registration/serializers.py:193
 msgid "The two password fields didn't match."
 msgstr "Пароли не совпадают."
 
-#: registration/views.py:44
+#: rest_auth/registration/views.py:51
 msgid "Verification e-mail sent."
 msgstr "Письмо с подтверждением выслано."
 
-#: registration/views.py:91
+#: rest_auth/registration/views.py:98
 msgid "ok"
 msgstr "ок"
 
-#: serializers.py:30
+#: rest_auth/serializers.py:30
 msgid "Must include \"email\" and \"password\"."
 msgstr "Должно включать \"email\" и \"password\"."
 
-#: serializers.py:41
+#: rest_auth/serializers.py:41
 msgid "Must include \"username\" and \"password\"."
 msgstr "Должно включать \"username\" и \"password\"."
 
-#: serializers.py:54
+#: rest_auth/serializers.py:54
 msgid "Must include either \"username\" or \"email\" and \"password\"."
 msgstr "Должно включать либо \"username\" либо \"email\" и \"password\"."
 
-#: serializers.py:95
+#: rest_auth/serializers.py:95
 msgid "User account is disabled."
 msgstr "Пользовательский аккаунт отключён."
 
-#: serializers.py:98
+#: rest_auth/serializers.py:98
 msgid "Unable to log in with provided credentials."
 msgstr "Невозможно войти в систему с указанными учётными данными."
 
-#: serializers.py:107
+#: rest_auth/serializers.py:107
 msgid "E-mail is not verified."
 msgstr "E-mail не подтверждён."
 
-#: views.py:126
+#: rest_auth/views.py:127
 msgid "Successfully logged out."
 msgstr "Успешно вышли."
 
-#: views.py:174
+#: rest_auth/views.py:175
 msgid "Password reset e-mail has been sent."
 msgstr "Письмо с инструкциями по восстановлению пароля выслано."
 
-#: views.py:200
+#: rest_auth/views.py:201
 msgid "Password has been reset with the new password."
 msgstr "Пароль изменён на новый."
 
-#: views.py:222
+#: rest_auth/views.py:223
 msgid "New password has been saved."
 msgstr "Новый пароль сохранён."
